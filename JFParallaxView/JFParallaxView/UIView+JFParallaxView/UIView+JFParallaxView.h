@@ -8,21 +8,12 @@
 
 @import UIKit;
 
-typedef CGPoint JFParallax;
-
-CG_INLINE JFParallax JFParallaxMake(CGFloat x, CGFloat y) {
-    JFParallax p; p.x = x; p.y = y; return p;
-}
-
 #pragma mark - Constants
-FOUNDATION_EXPORT const JFParallax kJFParallaxViewAmount_None;
-FOUNDATION_EXPORT const JFParallax kJFParallaxViewAmount_Low;
-FOUNDATION_EXPORT const JFParallax kJFParallaxViewAmount_Medium;
-FOUNDATION_EXPORT const JFParallax kJFParallaxViewAmount_High;
+FOUNDATION_EXPORT const CGPoint kCGPointParallaxViewAmount_None;
 
 @interface UIView (JFParallaxView)
 
 /** The parallax amount. Default value is kJFParallaxViewAmount_None. */
-@property (nonatomic, assign) JFParallax parallaxAmount;
+@property (nonatomic, assign) CGPoint parallaxAmount;
 
 @end
