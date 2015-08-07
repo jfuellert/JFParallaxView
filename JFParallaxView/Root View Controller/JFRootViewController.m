@@ -26,12 +26,12 @@ const NSUInteger kJFRootViewController_NumberOfViews = 6;
     scrollView.backgroundColor  = [UIColor whiteColor];
     [self.view addSubview:scrollView];
 
-    scrollView.contentSize = CGSizeMake(CGRectGetWidth(scrollView.frame) * 2, CGRectGetHeight(scrollView.frame));
+    scrollView.contentSize = CGSizeMake(CGRectGetWidth(scrollView.frame) * 1.5f, CGRectGetHeight(scrollView.frame));
     
     //View size
     bounds.size.width            = CGRectGetWidth(bounds) * 0.5f;
     bounds.size.height           = CGRectGetHeight(bounds) * 0.15f;
-    bounds.origin.x              = (scrollView.contentSize.width * 0.375f) - CGRectGetWidth(bounds);
+    bounds.origin.x              = CGRectGetWidth(scrollView.frame) - CGRectGetWidth(bounds);
     bounds.origin.y              = CGRectGetHeight(scrollView.frame) * 0.025f;
     
     //Views
@@ -51,7 +51,7 @@ const NSUInteger kJFRootViewController_NumberOfViews = 6;
     }
 
     //Add parallax
-    CGPoint parallaxAmount = CGPointMake(-0.5f, -0.5f);
+    CGPoint parallaxAmount = kCGPointParallaxViewAmount_None;
     for(UIView *view in views) {
         
         view.parallaxAmount = parallaxAmount;
