@@ -29,7 +29,11 @@ Simply import the category classes in your files.
 #import <JFParallaxView/UIView+JFParallaxView.h>
 ``` 
 
-From there you can simply add a new value for parallaxAmount to your UIView class or subclass.
+####UIScrollView usage
+Import the UIScrollView category to any UIScrollView instance or UIScrollView subclass instance that you wish to use it on.
+
+####UIView category usage
+You can simply add a new value for parallaxAmount to your UIView class or subclass.
 ``` objective-c
 UIView *view        = [[UIView alloc] init];
 view.parallaxAmount = CGPointMake(1.5f, 1.5f);
