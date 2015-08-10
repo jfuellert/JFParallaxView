@@ -1,5 +1,4 @@
 # JFParallaxView
-========
 JFParallaxView is used as a class category for adding parallax to scrollable UIKit components. The categories simply add a parallaxAmount property to UIView which is used by UIScroll view to parallax the view.
 
 ##Purpose
@@ -20,7 +19,7 @@ Earliest tested and supported build and deployment target - iOS 6.0.
 Latest tested and supported build and deployment target - iOS 8.4.
 
 ##ARC Compatibility
-JFParallaxView is built from ARC and is ARC compatible. 
+JFParallaxView is built from ARC and is ARC-only compatible. 
 
 ##Usage
 ####JFParallaxView initialization
@@ -32,6 +31,6 @@ Simply import the category classes in your files.
 
 From there you can simply add a new value for parallaxAmount to your UIView class or subclass.
 ``` objective-c
-UIView *view = [[UIView alloc] init];
-view.parallaxAmount = CGPointMake(1.5f, 1.5);
+UIView *view        = [[UIView alloc] init];
+view.parallaxAmount = CGPointMake(1.5f, 1.5f);
 ``` 
