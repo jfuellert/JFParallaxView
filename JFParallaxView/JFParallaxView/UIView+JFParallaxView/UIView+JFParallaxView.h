@@ -13,7 +13,7 @@ FOUNDATION_EXPORT const CGPoint kCGPointParallaxViewAmount_None;
 
 @interface UIView (JFParallaxView)
 
-/** The parallax amount. Default value is kJFParallaxViewAmount_None. */
+/** The parallax amount. Default value is kJFParallaxViewAmount_None {1.0f, 1.0f}. */
 @property (nonatomic, assign) CGPoint parallaxAmount;
 
 @end

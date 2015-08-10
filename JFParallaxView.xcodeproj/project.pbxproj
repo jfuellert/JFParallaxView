@@ -14,6 +14,7 @@
 		A2632C331B7505EF00A00D41 /* JFRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2632C321B7505EF00A00D41 /* JFRootViewController.m */; };
 		A2632C3C1B75197100A00D41 /* UIScrollView+JFParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2632C3A1B75197100A00D41 /* UIScrollView+JFParallaxView.m */; };
 		A2632C3F1B75199700A00D41 /* UIView+JFParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2632C3E1B75199700A00D41 /* UIView+JFParallaxView.m */; };
+		A2632C411B78F09F00A00D41 /* JFParallaxView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A2632C401B78F09F00A00D41 /* JFParallaxView.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		A2632C3A1B75197100A00D41 /* UIScrollView+JFParallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+JFParallaxView.m"; sourceTree = "<group>"; };
 		A2632C3D1B75199700A00D41 /* UIView+JFParallaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JFParallaxView.h"; sourceTree = "<group>"; };
 		A2632C3E1B75199700A00D41 /* UIView+JFParallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JFParallaxView.m"; sourceTree = "<group>"; };
+		A2632C401B78F09F00A00D41 /* JFParallaxView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JFParallaxView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				A2632C091B75022C00A00D41 /* JFParallaxView */,
+				A2632C401B78F09F00A00D41 /* JFParallaxView.podspec */,
 				A2632C231B75022C00A00D41 /* JFParallaxViewTests */,
 				A2632C081B75022C00A00D41 /* Products */,
 			);
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2632C411B78F09F00A00D41 /* JFParallaxView.podspec in Resources */,
 				A2632C181B75022C00A00D41 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +445,7 @@
 				A2632C2C1B75022C00A00D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2632C2D1B75022C00A00D41 /* Build configuration list for PBXNativeTarget "JFParallaxViewTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +454,7 @@
 				A2632C2F1B75022C00A00D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
