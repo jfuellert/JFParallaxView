@@ -5,14 +5,12 @@ JFParallaxView is used as a class category for adding parallax to scrollable UIK
 The main purpose of this software is to provide developers with a simple way to add non-intrusive parallax functionality to scrollable UIKit components. There are two category classes required to add this functionality, one relating to UIScrollView and another relating to UIView.
 
 ##Installation
-1. Install via CocoaPods
+Install via CocoaPods
 Add the following line to your .podfile
 
 ```
 pod 'JFParallaxView'
 ```
-2. Use and enjoy!
-
 ##Support
 ####IOS
 Earliest tested and supported build and deployment target - iOS 6.0. 
