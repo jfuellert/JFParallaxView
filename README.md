@@ -1,7 +1,7 @@
 # JFParallaxView
 JFParallaxView is used as a class category for adding parallax to scrollable UIKit components. The categories simply add a parallaxAmount property to UIView which is used by UIScroll view to parallax the view.
 
-![alt tag](https://raw.github.com/jfuellert/JFParallaxView/tree/master/Images/parallax.gif)
+![alt tag](https://raw.githubusercontent.com/jfuellert/JFParallaxView/master/Images/parallax.gif)
 
 ##Purpose
 The main purpose of this software is to provide developers with a simple way to add non-intrusive parallax functionality to scrollable UIKit components. There are two category classes required to add this functionality, one relating to UIScrollView and another relating to UIView.
