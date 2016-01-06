@@ -15,7 +15,7 @@ pod 'JFParallaxView'
 ```
 ##Support
 ####IOS
-Earliest tested and supported build and deployment target - iOS 6.0. 
+Earliest tested and supported build and deployment target - iOS 6.0.  
 Latest tested and supported build and deployment target - iOS 8.4.
 
 ##ARC Compatibility
